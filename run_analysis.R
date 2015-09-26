@@ -13,7 +13,7 @@ if (!("reshape2" %in% rownames(installed.packages())) ) {
         ## Open required libraries
         library(reshape2)
 
-        ## First, read all required .txt files and label the datasets
+        ## First, read all the required .txt files and label the datasets
         
         ## Read all activities and their names and label the aproppriate columns 
         activity_labels <- read.table("./activity_labels.txt",col.names=c("activity_id","activity_name"))
